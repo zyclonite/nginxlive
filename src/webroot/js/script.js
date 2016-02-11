@@ -57,7 +57,7 @@ function bytesToSize(bytes) {
 
 var maxlines = 100;
 var wsocket = function(loc, livelist) {
-    sock = SockJS(loc.protocol+'//'+loc.hostname+(loc.port===undefined?'':':'+loc.port)+loc.pathname.replace(/[^/]*$/,'')+'io');
+    sock = SockJS(loc.protocol+'//'+loc.hostname+(loc.port.length==0?'':':'+loc.port)+loc.pathname.replace(/[^/]*$/,'')+'io');
     sock.onopen = function() {
         var subscribeAccess = new Object();
         subscribeAccess.name = "access";
