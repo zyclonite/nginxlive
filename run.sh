@@ -1,2 +1,2 @@
 #!/bin/sh
-java -server -Xmx128m -jar nginxlive.jar
+java -Dvertx.logger-delegate-factory-class-name=io.vertx.core.logging.SLF4JLogDelegateFactory -Droot.level=INFO -jar ./target/nginxlive-1.0.0-fat.jar -conf ./src/docker/config.json -cp .

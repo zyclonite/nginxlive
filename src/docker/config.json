@@ -1,0 +1,19 @@
+{
+  "http":{
+    "host":"0.0.0.0",
+    "port":5141
+  },
+  "syslog":{
+    "host":"0.0.0.0",
+    "port":5140
+  },
+  "mongo":{
+    "address":"vertx.mongo",
+    "db_name":"nginxlive",
+    "connection_string":"mongodb://mongo:27017"
+  },
+  "mmdb":{
+    "enabled":false,
+    "database":"./GeoIP2-City.mmdb"
+  }
+}

@@ -1,32 +1,31 @@
-## nginx configuration
-### nginx log config
-    http {
-        log_format  json  '{"remoteAddr":"$remote_addr","remoteUser":"$remote_user",'
-                          '"time":"$time_iso8601","requestURI":"$request_uri",'
-                          '"queryString":"$query_string","requestMethod":"$request_method",'
-                          '"scheme":"$scheme","serverProtocol":"$server_protocol",'
-                          '"contentType":"$sent_http_content_type","status":$status,'
-                          '"bodyBytesSent":$body_bytes_sent,"httpReferer":"$http_referer",'
-                          '"httpUserAgent":"$http_user_agent","httpXForwardedFor":"$http_x_forwarded_for",'
-                          '"host":"$host","bytesSent":"$bytes_sent",'
-                          '"requestTime":"$request_time","serverName":"$server_name",'
-                          '"serverAddr":"$server_addr","serverPort":"$server_port",'
-                          '"hostname":"$hostname","requestLength":"$request_length",'
-                          '"proxyHost":"$proxy_host","proxyPort":"$proxy_port",'
-                          '"uri":"$uri","nginxVersion":"$nginx_version"}';
+# nginxlive
 
-        access_log  syslog:server=127.0.0.1:5140,tag=nginxjson json;
-    }
-### nginx server config
-    server {
-        listen 80;
-        server_name nginxlive.domain.tld;
+Reactive Logserver for the nginx webserver
 
-        location /nginxlive/ {
-                proxy_pass http://127.0.0.1:5141/;
-                proxy_http_version 1.1;
-                proxy_set_header Upgrade $http_upgrade;
-                proxy_set_header Connection "upgrade";
-                include proxy_params;
-        }
-    }
+## Documentation
+
+See https://github.com/zyclonite/nginxlive/wiki/Manual for details
+
+## Docker
+
+```
+$ docker run -d --name nginxlive -p 5140:5140/udp -p 5141:5141 zyclonite/nginxlive
+```
+
+## Source
+
+The project's source code is hosted at:
+
+https://github.com/zyclonite/nginxlive
+
+## Github procedures
+
+nginxlive accepts contributions through pull requests on GitHub. After review a pull
+request should either get merged or be rejected.
+
+When a pull request needs to be reworked, say you have missed something, the pull
+request is then closed, at the time you finished the required changes you should
+reopen your original Pull Request and it will then be re-evaluated. At that point if
+the request is aproved we will then merge it.
+
+Make sure you always rebase your branch on master before submitting pull requests.

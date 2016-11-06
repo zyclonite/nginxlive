@@ -1,0 +1,15 @@
+[Unit]
+Description=nginxlive Service
+After=docker.service
+Requires=docker.service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+SuccessExitStatus=143
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker kill nginxlive
+ExecStartPre=-/usr/bin/docker rm nginxlive
+ExecStartPre=/usr/bin/docker pull zyclonite/nginxlive:latest
+ExecStart=/usr/bin/docker run --name nginxlive -p 5140:5140/udp -p 5141:5141 zyclonite/nginxlive:latest
+ExecStop=/usr/bin/docker stop nginxlive

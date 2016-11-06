@@ -1,15 +1,539 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="nginxlive:jar" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="075423de-6984-4d46-a5ac-20d3610231d5" name="Default" comment="" />
+    <list default="true" id="a19c9d8e-529e-4585-bf35-5cff749029bb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/images/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginxlive.service" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/docker/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/MainVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/annotation/Queryable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/HttpDbHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/HttpIoHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/SyslogMessageHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/model/LogLine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/JsonObjectHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/ModelHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullDoubleDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullIntegerDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullLongDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullStringDeserializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/BootstrapVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/HttpVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/SyslogVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/js/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/URI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/sockjs-1.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/accordion.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/autocomplete.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/dotnav.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-advanced.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-file.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-password.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/form-select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/htmleditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/nestable.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/notify.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/placeholder.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/progress.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/search.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slidenav.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/slideshow.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sortable.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/sticky.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/tooltip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/components/upload.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.almost-flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.almost-flat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.gradient.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.gradient.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/css/uikit.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/accordion.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/autocomplete.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/form-password.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/form-password.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/form-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/form-select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/grid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/htmleditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/htmleditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/lightbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/lightbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/nestable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/notify.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/pagination.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/parallax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/parallax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/search.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideset.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideshow-fx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideshow-fx.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideshow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/slideshow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/components/upload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/alert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/cover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/cover.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/dropdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/grid.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/modal.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/nav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/offcanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/scrollspy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/smooth-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/smooth-scroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/switcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/switcher.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/tab.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/toggle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/toggle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/touch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/core/utility.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/uikit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/lib/uikit-2.24.2/js/uikit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/webroot/live.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/nginxlive_jar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/bwin_party.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/znx.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/bson-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/geoip2-2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jackson-annotations-2.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jackson-core-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jackson-databind-2.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/logback-classic-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/logback-core-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/maxmind-db-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/mongodb-driver-async-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/mongodb-driver-core-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-buffer-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-codec-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-codec-http-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-common-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-handler-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/netty-transport-4.0.33.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/rxjava-1.0.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/slf4j-api-1.7.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-core-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-mongo-client-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-mongo-service-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-rx-java-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-service-proxy-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/vertx-web-3.2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/nginxlive.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/annotation/Queryable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpDbHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpIoHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/SyslogMessageHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/model/LogLine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Filesystem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/JsonObjectHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/ModelHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullDoubleDeserializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullIntegerDeserializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullLongDeserializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullStringDeserializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/BootstrapVerticle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/HttpVerticle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/SyslogVerticle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/images/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/URI.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/jquery-2.1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/sockjs-1.0.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/autocomplete.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/dotnav.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-advanced.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-file.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-password.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/form-select.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/htmleditor.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/nestable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/notify.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/placeholder.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/progress.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/search.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slidenav.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/slideshow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sortable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/sticky.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/tooltip.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/components/upload.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.almost-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.almost-flat.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.gradient.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.gradient.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/css/uikit.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/form-password.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/form-password.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/form-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/form-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/grid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/htmleditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/htmleditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/lightbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/nestable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/notify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/notify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/pagination.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/search.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideset.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideshow-fx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideshow-fx.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideshow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/slideshow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/sortable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/sortable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/components/upload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/alert.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/alert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/button.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/cover.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/cover.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/grid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/modal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/nav.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/offcanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/offcanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/scrollspy.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/smooth-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/smooth-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/switcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/switcher.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/tab.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/toggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/toggle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/touch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/utility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/core/utility.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/uikit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/lib/uikit-2.24.2/js/uikit.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webroot/live.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginxlive.iml" afterPath="$PROJECT_DIR$/nginxlive.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.sh" afterPath="$PROJECT_DIR$/run.sh" />
+    </list>
     <ignored path="nginxlive.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +541,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -27,14 +550,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/Application.java">
+      <file leaf-file-name="MainVerticle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/MainVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22651006">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
-                <element signature="e#0#6146#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#492#519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,6 +572,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -57,41 +583,113 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/logback.xml" />
-        <option value="$PROJECT_DIR$/run.sh" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Filesystem.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullDoubleDeserializer.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/annotation/Queryable.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/IoHandler.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Constants.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/HttpVerticle.java" />
-        <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/SyslogVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/verticles/SyslogVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/verticles/HttpVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/verticles/BootstrapVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/Filesystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/JsonObjectHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/ModelHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/SyslogNullDoubleDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/SyslogNullIntegerDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/SyslogNullLongDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/SyslogNullStringDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/model/LogLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/handler/HttpDbHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/handler/HttpIoHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/handler/SyslogMessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/annotation/Queryable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/nginxlive.service" />
+        <option value="$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/src/docker/config.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/nginxlivestats.conf" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZoneId.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/JsonObjectHelper.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZonedDateTime.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpDbHandler.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpIoHandler.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/SyslogMessageHandler.java" />
-        <option value="$PROJECT_DIR$/src/webroot/index.html" />
-        <option value="$PROJECT_DIR$/src/webroot/live.html" />
-        <option value="$PROJECT_DIR$/src/webroot/js/script.js" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/model/LogLine.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/ModelHelper.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/Application.java" />
-        <option value="$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/BootstrapVerticle.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nginxlive" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nginxlive" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nginxlive" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="docker" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nginxlive" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1685" />
-    <option name="y" value="-43" />
-    <option name="width" value="1679" />
-    <option name="height" value="1023" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,22 +748,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="nginxlive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nginxlive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="live" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -183,11 +767,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="live" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="verticles" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginxlive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,11 +793,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="live" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
+              <option name="myItemId" value="docker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,34 +810,18 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.scala.compiler.ScalaCompileServerForm" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="net.zyclonite.nginx.live.verticles" />
-      <recent name="net.zyclonite.nginx.live.util" />
-      <recent name="net.zyclonite.nginx.live.annotation" />
-      <recent name="net.zyclonite.nginx.live.model" />
-      <recent name="net.zyclonite.nginx.live.handler" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/webroot" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler" />
-      <recent name="$PROJECT_DIR$/src/net/zyclonite/nginx/live/util" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -262,31 +830,26 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -296,27 +859,20 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -342,7 +898,24 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -437,42 +1010,46 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -531,547 +1108,261 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Application" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="net.zyclonite.nginx.live.Application" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="nginxlive" />
-      <envs />
-      <method />
-    </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Application" />
-    </list>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="075423de-6984-4d46-a5ac-20d3610231d5" name="Default" comment="" />
-      <created>1451467900864</created>
+      <changelist id="a19c9d8e-529e-4585-bf35-5cff749029bb" name="Default" comment="" />
+      <created>1478431679242</created>
       <option name="number" value="Default" />
-      <updated>1451467900864</updated>
+      <option name="presentableId" value="Default" />
+      <updated>1478431679242</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1685" y="-43" width="1679" height="1023" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548456" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24489796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984728" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16400427" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$USER_HOME$" />
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/logback.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2901024">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/vertx-core-3.2.0.jar!/io/vertx/core/Vertx.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullDoubleDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#1605#1606#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Filesystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullDoubleDeserializer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullIntegerDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#970#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullIntegerDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#970#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullStringDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/SyslogNullLongDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#962#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/geoip2-2.3.1.jar!/com/maxmind/geoip2/exception/GeoIp2Exception.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06849315">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/Constants.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullLongDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26578072">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/SyslogNullStringDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/model/LogLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/HttpDbHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/HttpIoHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/handler/SyslogMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/annotation/Queryable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/HttpVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2560#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/util/Filesystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/JsonObjectHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#463#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/util/ModelHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#817#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/SyslogVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#4610#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginx/live/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1629">
+          <caret line="146" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/verticles/BootstrapVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2013#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-service/3.3.3/vertx-mongo-service-3.3.3-sources.jar!/io/vertx/ext/mongo/MongoServiceVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docker/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84358525">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/nginxlive.service">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02636204">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="1" column="158" selection-start-line="1" selection-start-column="150" selection-end-line="1" selection-end-column="158" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/zyclonite/nginxlive/MainVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39335665">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/bson-3.2.0.jar!/org/bson/codecs/BsonDateTimeCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15817223">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/bson-3.2.0.jar!/org/bson/BsonTimestamp.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.26362038">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/bson-3.2.0.jar!/org/bson/BsonDateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05272408">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477">
-          <caret line="1124" column="42" selection-start-line="1124" selection-start-column="42" selection-end-line="1124" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.24664429">
-          <caret line="1124" column="42" selection-start-line="1124" selection-start-column="42" selection-end-line="1124" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZoneId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477">
-          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
-          <folding>
-            <element signature="e#11168#11169#0" expanded="false" />
-            <element signature="e#11223#11224#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZoneId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477">
-          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
-          <folding>
-            <element signature="e#11168#11169#0" expanded="false" />
-            <element signature="e#11223#11224#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/vertx-core-3.2.0.jar!/io/vertx/core/json/JsonObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7250924">
-          <caret line="192" column="25" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/JsonObjectHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25167784">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZonedDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477">
-          <caret line="335" column="32" selection-start-line="335" selection-start-column="32" selection-end-line="335" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/time/ZonedDateTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33221477">
-          <caret line="335" column="32" selection-start-line="335" selection-start-column="32" selection-end-line="335" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webroot/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/SyslogMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#3470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpIoHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77348995">
-          <caret line="70" column="99" selection-start-line="70" selection-start-column="99" selection-end-line="70" selection-end-column="99" />
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#492#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webroot/live.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6258741">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webroot/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6416084">
-          <caret line="40" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webroot/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7298658">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/annotation/Queryable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32718122">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/model/LogLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60402685">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/util/ModelHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/vertx-mongo-service-3.2.0.jar!/io/vertx/ext/mongo/MongoService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.599297">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/handler/HttpDbHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17617449">
-          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/SyslogVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1371#1377#0" expanded="true" />
-            <element signature="e#1901#1907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/HttpVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0067114094">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/verticles/BootstrapVerticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70469797">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/zyclonite/nginx/live/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22651006">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#6146#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>nginxlive:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <last-edited>znx</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Detection</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Dart SDK</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>nginxlive</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
