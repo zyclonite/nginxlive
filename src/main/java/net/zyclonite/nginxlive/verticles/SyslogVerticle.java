@@ -70,7 +70,7 @@ public class SyslogVerticle extends AbstractVerticle {
 
         server = vertx.createDatagramSocket(new DatagramSocketOptions())
                 .listen(config().getJsonObject(SERVICE).getInteger("port", Constants.DEFAULT_SYSLOG_PORT),
-                        config().getJsonObject(SERVICE).getString("host", "127.0.0.1"),
+                        config().getJsonObject(SERVICE).getString("host", "0.0.0.0"),
                         result -> {
                             if (result.succeeded()) {
                                 result.result().handler(new SyslogMessageHandler(vertx, this, config()));

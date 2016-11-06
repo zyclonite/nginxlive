@@ -54,7 +54,7 @@ public class HttpVerticle extends AbstractVerticle {
         server = vertx.createHttpServer()
              .requestHandler(router::accept)
              .listen(config().getJsonObject(SERVICE).getInteger("port", Constants.DEFAULT_HTTP_PORT),
-                     config().getJsonObject(SERVICE).getString("host", "127.0.0.1"),
+                     config().getJsonObject(SERVICE).getString("host", "0.0.0.0"),
                      result -> {
                          if (result.succeeded()) {
                              fut.complete();
