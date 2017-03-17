@@ -4,7 +4,7 @@
 
   <groupId>net.zyclonite.nginxlive</groupId>
   <artifactId>nginxlive</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <organization>
       <name>zyclonite networx</name>
@@ -25,7 +25,7 @@
   </scm>
 
   <properties>
-      <vertx.version>3.3.3</vertx.version>
+      <vertx.version>3.4.1</vertx.version>
       <vertx.main>${project.groupId}.MainVerticle</vertx.main>
       <docker.group.name>zyclonite</docker.group.name>
       <docker.image>${docker.group.name}/${project.artifactId}:${project.version}</docker.image>
@@ -75,7 +75,7 @@
       <dependency>
           <groupId>ch.qos.logback</groupId>
           <artifactId>logback-classic</artifactId>
-          <version>1.1.7</version>
+          <version>1.2.1</version>
       </dependency>
 
       <dependency>
@@ -139,7 +139,7 @@
               <plugin>
                   <groupId>io.fabric8</groupId>
                   <artifactId>docker-maven-plugin</artifactId>
-                  <version>0.15.16</version>
+                  <version>0.20.0</version>
                   <configuration>
                       <images>
                           <image>
